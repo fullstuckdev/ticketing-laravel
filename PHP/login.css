@@ -1,0 +1,77 @@
+body {
+    background-color: #5E83C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-logo:hover {
+    transform: scale(1.1); /* Efek zoom saat dihover */
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 250px; /* Tidak terlalu lebar di layar besar */
+    text-align: center;
+    margin: 20px; /* Agar tidak terlalu menempel di pinggir */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #5E83C0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #4a6da8;
+}
+
+.login-container input:focus {
+    outline: 2px solid #5E83C0;
+}
+
+.login-container input,
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Pastikan ukuran tetap sama meskipun ada padding dan border */
+    transition: all 0.3s ease-in-out;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
