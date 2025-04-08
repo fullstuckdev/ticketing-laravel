@@ -19,7 +19,7 @@
             <div class="flex items-center p-4">
                 <img alt="User profile picture" class="rounded-full" height="40" src="" width="40"/>
                 <div class="ml-4">
-                    <p>{{ Auth::user()->name }}</p>
+                    {{-- <p>{{ Auth::user()->name }}</p> --}}
                     <p class="text-green-500 text-sm">● online</p>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         <i class="fas fa-bell" id="bell-icon"></i>
                         <div class="flex items-center">
                             <img alt="User profile picture" class="rounded-full" height="40" src="" width="40"/>
-                            <span class="ml-2">{{ Auth::user()->name }}</span>
+                            {{-- <span class="ml-2">{{ Auth::user()->name }}</span> --}}
                         </div>
                     </div>
                     <div class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 hidden" id="profile-menu">
