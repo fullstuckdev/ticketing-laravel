@@ -20,8 +20,8 @@ class TicketSeeder extends Seeder
                 'title' => 'Sample Ticket for ' . $member->name,
                 'description' => 'This is a sample ticket description.',
                 'status' => 'open',
-                'member_id' => $member->id,
-                'user_id' => $admin->id,
+                // 'member_id' => $member->id,
+                // 'user_id' => $admin->id,
             ]);
         }
     }
